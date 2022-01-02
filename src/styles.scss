@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --amarillo: rgb(240, 240, 114);
+    --rojo: rgb(255, 127, 127);
+}
+body{
+    background-color: var(--amarillo);
+}
