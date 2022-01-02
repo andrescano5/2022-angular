@@ -3,11 +3,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
 }
 :root{
     --amarillo: rgb(240, 240, 114);
     --rojo: rgb(255, 127, 127);
+    --naranja: rgb(230, 175, 93);
 }
 body{
     background-color: var(--amarillo);
+}
+
+img{
+    max-width: 100%;
 }
