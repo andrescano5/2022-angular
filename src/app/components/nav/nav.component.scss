@@ -1,17 +1,16 @@
 .nav{
     list-style-type: none;
-    margin: 30px auto;
-    max-width: 1000px;
+    margin: 5% auto;
+    max-width: 75%;
     display: flex;
-    background-color: var(--naranja);
-    
-   
+    background-color: var(--naranja);   
 
     &-list {
         flex-grow: 1;
         font-weight: bold;
-         text-align: center;
+        text-align: center;
         padding: 5px;
+
         &:hover{
             background-color: black;
             color: var(--naranja);
@@ -20,9 +19,7 @@
         
         &_link{
             color: black;
-            display: block;
-
-           
+            display: block;          
         }
     }
 }
