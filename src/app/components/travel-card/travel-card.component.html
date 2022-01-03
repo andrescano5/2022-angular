@@ -1,0 +1,12 @@
+<div class="card">
+    <img class="card-info_img" src="{{imagen}}" alt="Naruto y Sazuke">
+    <span class="card-info_cat">{{categoria}}</span>
+    <h2 class="card-info_titulo">{{titulo}}</h2>
+    <!-- Si ofertaInfalible es positivo muestro este mensaje -->
+    <p class="card-info_oferta" *ngIf="ofertaInfalible">ES INFALIBLE</p>
+    <!-- Si es negativo muestro este otro mensaje -->
+    <p class="card-info_oferta" *ngIf="!ofertaInfalible">No es infalible</p>
+    <span class="card-info_precio">{{precio}}</span>
+</div>
+
+
