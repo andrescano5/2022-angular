@@ -18,8 +18,13 @@
         }
         
         &_link{
-            color: black;
-            display: block;          
+            color: rgb(9, 9, 9);
+            display: block;
+            text-decoration: none;   
+            &:hover{
+                color: rgb(252, 249, 249);
+                display: block;
+            }      
         }
     }
 }
