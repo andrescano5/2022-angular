@@ -22,7 +22,7 @@ export class ContactoComponent implements OnInit {
     }
     //onInit: cuando terminó de precargar la función
   ngOnInit(): void {
-    this.mostrarFact();
+    //this.mostrarFact();
   }
 
 }
